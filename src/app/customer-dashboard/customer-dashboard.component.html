@@ -1,2 +1,13 @@
-<p>I love Debashis</p>
-<app-customer-card></app-customer-card>
+<mat-tab-group>
+  <mat-tab label="Card View">
+    <div fxLayout="row">
+      <div *ngFor="let cust of custInfo">
+        <div>
+          <app-customer-card [customerInfo]="cust"></app-customer-card>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+  <mat-tab label="List View"> Content 2 </mat-tab>
+  <mat-tab label="New Customer"> Content 3 </mat-tab>
+</mat-tab-group>
