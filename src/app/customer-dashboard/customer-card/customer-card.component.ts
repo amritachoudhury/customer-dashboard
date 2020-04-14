@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ICustomerInfo } from 'src/app/models/customer-info.interface';
 
 @Component({
   selector: 'app-customer-card',
   templateUrl: './customer-card.component.html',
-  styleUrls: ['./customer-card.component.scss']
+  styleUrls: ['./customer-card.component.scss'],
 })
 export class CustomerCardComponent implements OnInit {
 
-  constructor() { }
+  @Input() public customerInfo: ICustomerInfo;
+  
+  constructor() {}
 
-  ngOnInit() {
+  public ngOnInit(): void {
+    console.log(this.customerInfo);
   }
-
 }

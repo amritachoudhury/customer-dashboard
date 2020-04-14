@@ -1,6 +1,21 @@
-<p>customer-card works!</p>
 <mat-card class="card">
-    <mat-card-subtitle>
-        Amrita Choudhury
-    </mat-card-subtitle>
+  <mat-card-header class="header">
+    {{customerInfo.name}}
+  </mat-card-header>
+  <mat-card-title-group class="title-group">
+    <img mat-card-avatar class="img-class" src="https://material.angular.io/assets/img/examples/shiba1.jpg">
+    <div fxLayout="column">
+      <div>
+        <mat-card-title>{{customerInfo.city}},</mat-card-title>
+      </div>
+      <div>
+        <mat-card-subtitle>{{customerInfo.state}}</mat-card-subtitle>
+      </div>
+      <div>
+        <button mat-button>View Orders</button>
+      </div>
+    </div>
+  </mat-card-title-group>
 </mat-card>
+<!--C:/Users/amrit/Female_Avatar_image.jpg-->
+<!--https://material.angular.io/assets/img/examples/shiba1.jpg-->
