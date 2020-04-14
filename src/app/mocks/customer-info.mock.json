@@ -1,0 +1,14 @@
+{
+    "customerInfo": [
+        {
+          "name": "Debashis Paul",
+          "city": "Bentonville",
+          "state": "Arkansas"
+        },
+        {
+          "name": "Amrita Choudhury",
+          "city": "Phoenix",
+          "state": "Arizona"
+        }
+    ]
+}

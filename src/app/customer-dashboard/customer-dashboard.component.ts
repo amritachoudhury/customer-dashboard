@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ICustomerInfo } from '../models/customer-info.interface';
+import { customerInfo } from '../mocks/customer-info.mock.json';
 
 @Component({
   selector: 'app-customer-dashboard',
@@ -8,18 +9,8 @@ import { ICustomerInfo } from '../models/customer-info.interface';
 })
 export class CustomerDashboardComponent implements OnInit {
 
-  public custInfo: Array<ICustomerInfo> = [
-    {
-      name: 'Debashis Paul',
-      city: 'Bentonville',
-      state: 'Arkansas',
-    },
-    {
-      name: 'Amrita Choudhury',
-      city: 'Phoenix',
-      state: 'Arizona',
-    },
-  ];
+  public custInfo: Array<ICustomerInfo> = customerInfo;
+  
 
   constructor() { }
 

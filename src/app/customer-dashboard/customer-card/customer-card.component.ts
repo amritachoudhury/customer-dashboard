@@ -8,11 +8,11 @@ import { ICustomerInfo } from 'src/app/models/customer-info.interface';
 })
 export class CustomerCardComponent implements OnInit {
 
-  @Input() public customerInfo: ICustomerInfo;
-  
+  @Input() public customerCardInfo: ICustomerInfo;
+
   constructor() {}
 
   public ngOnInit(): void {
-    console.log(this.customerInfo);
+    console.log(this.customerCardInfo);
   }
 }
