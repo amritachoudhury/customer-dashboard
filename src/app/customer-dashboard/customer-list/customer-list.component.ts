@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ICustomerInfo } from 'src/app/models/customer-info.interface';
 
 @Component({
   selector: 'app-customer-list',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomerListComponent implements OnInit {
 
+  @Input() public customerListInfo: ICustomerInfo;
+
   constructor() { }
 
   ngOnInit(): void {
+    // console.log('Customer List:',  this.customerListInfo);
   }
 
 }
