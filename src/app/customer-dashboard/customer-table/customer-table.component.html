@@ -1,0 +1,10 @@
+<h4 class="header">List of Customers</h4>
+
+<table mat-table [dataSource]="customerTableInfo" class="table">
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <ng-container *ngFor="let column of displayedColumns" [matColumnDef]="column">
+        <th mat-header-cell class="cell" *matHeaderCellDef> {{column | uppercase}} </th>
+        <td mat-cell class="cell" *matCellDef="let element"> {{element[column]}} </td>
+    </ng-container>
+</table>
