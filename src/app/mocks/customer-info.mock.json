@@ -4,6 +4,7 @@
           "name": "Debashis Paul",
           "city": "Bentonville",
           "state": "Arkansas",
+          "gender": "M",
           "dob": "12/10/1986",
           "phone": "479-268-0668",
           "email": "cool.dpaul@gmail.com"
@@ -12,6 +13,7 @@
           "name": "Amrita Choudhury",
           "city": "Phoenix",
           "state": "Arizona",
+          "gender": "F",
           "dob": "10/24/1986",
           "phone": "479-203-8044",
           "email": "amritachoudhury333@gmail.com"
@@ -20,6 +22,7 @@
           "name": "Debashis P",
           "city": "Bentonville",
           "state": "Arkansas",
+          "gender": "M",
           "dob": "12/10/1986",
           "phone": "479-268-0668",
           "email": "cool.dpaul@gmail.com"
@@ -28,63 +31,31 @@
           "name": "Amrita Paul",
           "city": "Bentonville",
           "state": "Arkansas",
+          "gender": "F",
           "dob": "12/10/1986",
           "phone": "479-268-0668",
           "email": "cool.dpaul@gmail.com"
+        },
+        
+        {
+          "name": "Amrita C",
+          "city": "Bentonville",
+          "state": "Arkansas",
+          "gender": "F",
+          "dob": "10/24/1986",
+          "phone": "479-203-8044",
+          "email": "amrita.c333@gmail.com"
         }
         ,
         {
-          "name": "Amrita Paul",
+          "name": "D Paul",
           "city": "Bentonville",
           "state": "Arkansas",
+          "gender":"M",
           "dob": "12/10/1986",
           "phone": "479-268-0668",
-          "email": "cool.dpaul@gmail.com"
+          "email": "p.debashis_1986@gmail.com"
         }
-        ,
-        {
-          "name": "Amrita Paul",
-          "city": "Bentonville",
-          "state": "Arkansas",
-          "dob": "12/10/1986",
-          "phone": "479-268-0668",
-          "email": "cool.dpaul@gmail.com"
-        }
-        ,
-        {
-          "name": "Amrita Paul",
-          "city": "Bentonville",
-          "state": "Arkansas",
-          "dob": "12/10/1986",
-          "phone": "479-268-0668",
-          "email": "cool.dpaul@gmail.com"
-        }
-        ,
-        {
-          "name": "Amrita Paul",
-          "city": "Bentonville",
-          "state": "Arkansas",
-          "dob": "12/10/1986",
-          "phone": "479-268-0668",
-          "email": "cool.dpaul@gmail.com"
-        }
-        ,
-        {
-          "name": "Amrita Paul",
-          "city": "Bentonville",
-          "state": "Arkansas",
-          "dob": "12/10/1986",
-          "phone": "479-268-0668",
-          "email": "cool.dpaul@gmail.com"
-        }
-        ,
-        {
-          "name": "Amrita Paul",
-          "city": "Bentonville",
-          "state": "Arkansas",
-          "dob": "12/10/1986",
-          "phone": "479-268-0668",
-          "email": "cool.dpaul@gmail.com"
-        }
+        
     ]
 }

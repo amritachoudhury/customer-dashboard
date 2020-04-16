@@ -9,12 +9,17 @@ import { ICustomerInfo } from 'src/app/models/customer-info.interface';
 export class CustomerTableComponent implements OnInit {
 
   @Input() public customerTableInfo: ICustomerInfo;
-  displayedColumns: string[] = ['name', 'city', 'state', 'dob', 'phone', 'email'];
+  public displayedColumns: Array<string>;
 
   constructor() { }
 
   ngOnInit(): void {
+
     console.log('Customer Table:', this.customerTableInfo);
+
+    this.displayedColumns = Object.keys(this.customerTableInfo[0]);
+    console.log('Displayed Columns: ', this.displayedColumns);
+
   }
 
 }
