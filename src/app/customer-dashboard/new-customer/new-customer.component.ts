@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewCustomerComponent implements OnInit {
 
+  public firstName: string;
+  public checkEmpty: boolean;
+
   constructor() { }
 
   ngOnInit(): void {
+    if (this.firstName === undefined) {
+      this.checkEmpty = true;
+    }
   }
 
 }

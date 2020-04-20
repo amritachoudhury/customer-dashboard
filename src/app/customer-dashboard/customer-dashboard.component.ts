@@ -9,7 +9,9 @@ import { customerInfo } from '../mocks/customer-info.mock.json';
 })
 export class CustomerDashboardComponent implements OnInit {
 
-  public custInfo: Array<ICustomerInfo> = customerInfo;
+  public custInfo = customerInfo;
+  
+  public custInfoFromInterface: Array<ICustomerInfo> = customerInfo;
   
 
   constructor() { }

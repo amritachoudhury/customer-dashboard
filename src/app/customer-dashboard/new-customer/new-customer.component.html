@@ -1,2 +1,15 @@
 <p>new-customer works!</p>
 
+<mat-label>
+    First Name:
+</mat-label>
+<mat-form-field appearance="outline" class="container">
+    <input 
+        matInput
+        [(ngModel)]="firstName" 
+        required
+    />
+    <mat-hint align="end" class="hint"> Enter your First Name</mat-hint>
+    
+</mat-form-field>
+

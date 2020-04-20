@@ -14,3 +14,11 @@
         </mat-grid-tile>
     </div>
 </mat-grid-list>
+
+
+    <div class="tile">
+        <div *ngFor="let custList of customerListInfo">
+            <div *ngFor="let field of column">
+                <mat-label>{{custList.name}}</mat-label>
+            </div>
+        </div>
